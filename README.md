@@ -15,15 +15,15 @@
 启动方式：
 
 ```powershell
-streamlit run .\\streamlit\_app.py --server.port 8501
-streamlit run .\\streamlit\_realtime.py --server.port 8502
+streamlit run .\streamlit\_app.py --server.port 8501
+streamlit run .\streamlit\_realtime.py --server.port 8502
 ```
 
 也可以使用脚本：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\\scripts\\run\_8501.ps1
-powershell -ExecutionPolicy Bypass -File .\\scripts\\run\_8502.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\\run\_8501.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\\run\_8502.ps1
 ```
 
 ## 2\. 当前功能总览
