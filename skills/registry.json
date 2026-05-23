@@ -1,0 +1,167 @@
+{
+  "version": "v8.3",
+  "updated_at": "2026-05-23 12:21:13",
+  "skills": [
+    {
+      "name": "情绪周期",
+      "type": "market_mode",
+      "file": "emotion_cycle.md",
+      "enabled": true,
+      "priority": 100,
+      "aliases": [
+        "情绪",
+        "周期",
+        "主升",
+        "退潮",
+        "冰点",
+        "修复",
+        "市场模式"
+      ],
+      "rule_types": [
+        "风控",
+        "观察"
+      ]
+    },
+    {
+      "name": "92科比首板",
+      "type": "buy_signal",
+      "file": "kobe_first_board.md",
+      "enabled": true,
+      "priority": 90,
+      "aliases": [
+        "92科比",
+        "首板",
+        "补涨",
+        "低位",
+        "一板",
+        "1进2"
+      ],
+      "rule_types": [
+        "补涨",
+        "切换",
+        "半路"
+      ]
+    },
+    {
+      "name": "半路买点",
+      "type": "buy_signal",
+      "file": "half_way_buy.md",
+      "enabled": true,
+      "priority": 85,
+      "aliases": [
+        "半路",
+        "半路买点",
+        "低位异动",
+        "涨速",
+        "承接"
+      ],
+      "rule_types": [
+        "半路"
+      ]
+    },
+    {
+      "name": "扫板",
+      "type": "buy_signal",
+      "file": "sweep_board.md",
+      "enabled": true,
+      "priority": 80,
+      "aliases": [
+        "扫板",
+        "打板",
+        "接近涨停",
+        "强情绪"
+      ],
+      "rule_types": [
+        "扫板"
+      ]
+    },
+    {
+      "name": "排板",
+      "type": "buy_signal",
+      "file": "queue_board.md",
+      "enabled": true,
+      "priority": 78,
+      "aliases": [
+        "排板",
+        "封单",
+        "封板观察",
+        "撤单观察"
+      ],
+      "rule_types": [
+        "排板"
+      ]
+    },
+    {
+      "name": "回封",
+      "type": "buy_signal",
+      "file": "reseal_board.md",
+      "enabled": true,
+      "priority": 82,
+      "aliases": [
+        "回封",
+        "炸板",
+        "承接",
+        "重新封板"
+      ],
+      "rule_types": [
+        "回封"
+      ]
+    },
+    {
+      "name": "小市值高弹性",
+      "type": "stock_selection",
+      "file": "smallcap_growth.md",
+      "enabled": true,
+      "priority": 95,
+      "aliases": [
+        "小市值",
+        "高弹性",
+        "未来估值",
+        "弹性分",
+        "补涨",
+        "题材弹性"
+      ],
+      "rule_types": [
+        "半路",
+        "补涨",
+        "切换"
+      ]
+    },
+    {
+      "name": "中军参考",
+      "type": "market_reference",
+      "file": "medium_reference.md",
+      "enabled": true,
+      "priority": 75,
+      "aliases": [
+        "中军",
+        "大市值",
+        "板块强度",
+        "方向参考",
+        "资金锚点"
+      ],
+      "rule_types": [
+        "观察"
+      ]
+    },
+    {
+      "name": "风险控制",
+      "type": "risk_control",
+      "file": "risk_control.md",
+      "enabled": true,
+      "priority": 100,
+      "aliases": [
+        "风控",
+        "风险",
+        "卖点",
+        "退潮",
+        "炸板",
+        "中位股",
+        "弱转强失败"
+      ],
+      "rule_types": [
+        "风控"
+      ]
+    }
+  ]
+}

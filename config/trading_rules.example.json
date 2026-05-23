@@ -1,0 +1,32 @@
+{
+  "halfway": {
+    "enabled": true,
+    "min_pct": 3.0,
+    "max_pct": 8.0,
+    "min_speed5": 0.5,
+    "min_amount_yi": 0.5,
+    "min_sector_strong": 3,
+    "min_sector_limit": 0,
+    "require_bullish_flow": false
+  },
+  "near_limit": {
+    "enabled": true,
+    "min_pct": 8.0,
+    "min_speed5": 0.1,
+    "min_amount_yi": 0.5,
+    "min_sector_strong": 3,
+    "min_sector_limit": 1,
+    "require_bullish_flow": false
+  },
+  "risk_sell": {
+    "enabled": true,
+    "max_pct": -3.0,
+    "max_speed5": -1.0,
+    "min_amount_yi": 0.3
+  },
+  "filters": {
+    "exclude_new": true,
+    "exclude_limit_in_speed_rank": true,
+    "min_amount_yi_global": 0.3
+  }
+}

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Streamlit / runtime
+.streamlit/secrets.toml
+reports/*
+!reports/.gitkeep
+logs/*
+!logs/.gitkeep
+backups/*
+!backups/.gitkeep
+
+# Local databases and uploaded knowledge
+*.sqlite3
+*.sqlite3-*
+data/*
+!data/.gitkeep
+skills/uploads/*
+!skills/uploads/.gitkeep
+skills/skill_stats.csv
+skills/performance_summary.md
+
+# Generated config with private data
+config/settings.json
+config/email_alert*.json
+config/*password*.json
+config/*secret*.json
+config/watchlist.txt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+akshare
+pandas
+streamlit
+streamlit-autorefresh
+requests
+openai
+pypdf
+beautifulsoup4
+pillow
+pytdx
+openpyxl
+tabulate
