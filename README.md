@@ -15,15 +15,15 @@
 启动方式：
 
 ```powershell
-streamlit run .\streamlit\_app.py --server.port 8501
-streamlit run .\streamlit\_realtime.py --server.port 8502
+streamlit run .\streamlit_app.py --server.port 8501
+streamlit run .\streamlit_realtime.py --server.port 8502
 ```
 
 也可以使用脚本：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\\run\_8501.ps1
-powershell -ExecutionPolicy Bypass -File .\scripts\\run\_8502.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\run\_8501.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\run\_8502.ps1
 ```
 
 ## 2\. 当前功能总览
@@ -83,19 +83,19 @@ powershell -ExecutionPolicy Bypass -File .\\scripts\\setup\_windows.ps1
 
 ```powershell
 # 初始化项目目录和数据库
-python .\\scripts\\init\_project.py
+python .\scripts\\init_project.py
 
 # 诊断项目
-python .\\scripts\\diagnose\_project.py
+python .\scripts\\diagnose_project.py
 
 # 启动 8501
-powershell -ExecutionPolicy Bypass -File .\\scripts\\run\_8501.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\run_8501.ps1
 
 # 启动 8502
-powershell -ExecutionPolicy Bypass -File .\\scripts\\run\_8502.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\run_8502.ps1
 
 # 清理运行时输出
-python .\\scripts\\clean\_runtime.py
+python .\scripts\clean_runtime.py
 ```
 
 ## 6\. API Key 和联网
@@ -109,10 +109,10 @@ copy .env.example .env
 填写：
 
 ```text
-DEEPSEEK\_API\_KEY=你的DeepSeek Key
-AI\_PROVIDER=deepseek
-AI\_MODEL=deepseek-chat
-AI\_BASE\_URL=https://api.deepseek.com
+DEEPSEEK_API_KEY=你的DeepSeek Key
+AI_PROVIDER=deepseek
+AI_MODEL=deepseek-chat
+AI_BASE_URL=https://api.deepseek.com
 ```
 
 如果遇到 `SSLEOFError` 或 `ProxyError`，进入页面底部的 **Network Guard** 面板，先运行网络诊断，再按提示清理代理或启用 `trust\_env=False`。
@@ -124,12 +124,12 @@ AI\_BASE\_URL=https://api.deepseek.com
 `.env` 示例：
 
 ```text
-SMTP\_HOST=smtp.qq.com
-SMTP\_PORT=465
-SMTP\_USER=your\_email@qq.com
-SMTP\_SENDER=your\_email@qq.com
-SMTP\_PASSWORD=你的邮箱授权码
-SMTP\_RECIPIENTS=receiver@example.com
+SMTP_HOST=smtp.qq.com
+SMTP_PORT=465
+SMTP_USER=your\_email@qq.com
+SMTP_SENDER=your\_email@qq.com
+SMTP_PASSWORD=你的邮箱授权码
+SMTP_RECIPIENTS=receiver@example.com
 ```
 
 8502 页面中进入“邮件提醒”后，先发送测试邮件，再打开自动提醒。
